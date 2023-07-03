@@ -32,5 +32,19 @@ h1{
 
 }
 #paper:hover, #rock:hover, #scissors:hover{
-    border: 3px solid red;
+    border:3px solid rgb(255, 0, 0);
+    max-width: 200px;
+   
+}
+#paper:active{
+    border:20px solid pink;
+    max-width: 200px;
+}
+#rock:active{
+    border:20px solid grey;
+    max-width: 200px;
+}
+#scissors:active{
+    border:20px solid green;
+    max-width: 200px;
 }

@@ -7,13 +7,10 @@ const computerChoice = document.querySelector('.computerChoice');
 const playerChoice = document.querySelector('.playerChoice');
 const result = document.querySelector('.result');
 
-let p = 'Paper';
-let s = 'Scissors' ;
-let r = 'Rock';
+let p = "paper";
+let s = "scissors";
+let r = "rock";
 
-///scissorsBtn.addEventListener('click',scissor);
-//rockBtn.addEventListener('click',rock);
-///paperBtn.addEventListener('click',paper);
 
 
 
@@ -88,21 +85,6 @@ function choice(){
 
 
 
-
-////function player(){
- //   let answer = prompt('rock, paper, or scissors?');
-  //  if (answer === 'rock'){
- //       return r
- //   } else if (answer === 'paper'){
- //       return p
-//    } else if (answer= 'scissors'){
- //       return s
-//    }    
-///}
-
-
-
-/////
 
 
 
