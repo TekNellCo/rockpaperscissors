@@ -11,6 +11,20 @@ let p = "paper";
 let s = "scissors";
 let r = "rock";
 
+const yes = document.getElementById('yes');
+let greeting = document.querySelector('.greeting');
+const no = document.getElementsByClassName('.no');
+
+function disagree(){
+    greeting.style.cssText = 'display : none';
+    alert('Too bad!');
+
+}
+
+function agree(){
+    greeting.style.cssText = 'display : none';
+
+}
 
 
 

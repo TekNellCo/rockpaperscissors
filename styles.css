@@ -8,6 +8,7 @@ body{
     width:100%;
     border:3px solid black;
     max-width:180px;
+    border-radius: 8%;
 
     
 }
@@ -48,3 +49,36 @@ h1{
     border:20px solid green;
     max-width: 200px;
 }
+
+.greeting{
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+   
+}
+
+.text{
+    overflow: hidden;
+    white-space:nowrap;
+    animation:typing;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    flex-direction: column;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .text button{
+    border: 2px solid white;
+    height: 40px;
+    width:70px;
+    background-color:black;
+    color:white;
+  }
+  .text button:hover{
+    background-color: white;
+    color:black;
+  }
+
