@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+
+.rpsContainer img{
+    width:100%;
+    border:3px solid black;
+    max-width:180px;
+
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+
+}
+.gameArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rpsContainer{
+    display: flex;
+}
+.rpsContainer div{
+     display: flex;
+     flex-direction: column;
+
+
+}
+#paper:hover, #rock:hover, #scissors:hover{
+    border: 3px solid red;
+}
